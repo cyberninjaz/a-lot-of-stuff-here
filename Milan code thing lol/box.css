@@ -1,0 +1,11 @@
+div.box {
+    background-color: red;
+    width: 1000px;
+    height: 10px;
+}
+div.box2 {
+    background-color: greenyellow;
+    width: 1000px;
+    height: 10px;
+    margin-top: 900px;
+}

@@ -1,0 +1,135 @@
+body {
+    background-image: url("backroundforeverygoodgame.jpg");
+    background-size: cover;
+}
+
+img {
+    width: 20vw;
+}
+
+@keyframes musk {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+img#musk {
+    position: absolute;
+    top: 60vh;
+    left: 40vw;
+    animation-name: musk;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: all 0.5s;
+}
+
+img {
+    width: 20vw;
+}
+
+@keyframes big {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+img#big {
+    position: absolute;
+    top: 20vh;
+    left: 70vw;
+    animation-name: big;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: all 0.5s;
+}
+
+img {
+    width: 20vw;
+}
+
+@keyframes dogecoin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+img#dogecoin {
+    position: absolute;
+    top: 60vh;
+    left: 80vw;
+    animation-name: big;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: all 0.5s;
+}
+
+img#normal {
+    position: absolute;
+    top: 80vh;
+    left: 30vw;
+    animation-name: big;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: all 0.5s;
+}
+
+img#moon {
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+    animation-name: big;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: all 0.5s;
+}
+
+img#money {
+    position: absolute;
+    top: 80vh;
+    left: 30vw;
+    animation-name: big;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: all 0.5s;
+}
+
+div {
+    width: 600px;
+    height: 400px;
+    z-index: 80;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
